@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="729" height="264" viewBox="0 0 729 264" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Agniro</title>
+  <desc id="desc">Agniro wordmark beside an orange flame.</desc>
+  <defs>
+    <linearGradient id="flame" x1="74" y1="28" x2="194" y2="217" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD166"/>
+      <stop offset=".3" stop-color="#FF8A00"/>
+      <stop offset=".68" stop-color="#FF4B00"/>
+      <stop offset="1" stop-color="#8D2000"/>
+    </linearGradient>
+    <linearGradient id="flameHighlight" x1="69" y1="55" x2="143" y2="166" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF0A6"/>
+      <stop offset=".5" stop-color="#FFB02E"/>
+      <stop offset="1" stop-color="#FF6900" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="wordmark" x1="230" y1="73" x2="675" y2="181" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE8B0"/>
+      <stop offset=".34" stop-color="#FFB23E"/>
+      <stop offset=".68" stop-color="#FF6500"/>
+      <stop offset="1" stop-color="#E9270A"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(0 113 -102 0 136 129)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8A00" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#FF4B00" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="211" y="47" width="496" height="174" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="5"/>
+      <feOffset dy="9"/>
+      <feColorMatrix values="0 0 0 0 1 0 0 0 0 .29 0 0 0 0 0 0 0 0 .55 0"/>
+      <feBlend in2="SourceGraphic" result="shadow"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <ellipse cx="136" cy="132" rx="105" ry="119" fill="url(#glow)"/>
+  <path d="M137 17c-6 22-36 47-55 76-24 36-24 85 1 119 17 23 42 35 69 33 38-3 67-33 67-70 0-28-12-51-35-76-18-19-37-39-47-82Z" fill="#351307" opacity=".7" transform="translate(9 10)"/>
+  <path d="M137 17c-6 22-36 47-55 76-24 36-24 85 1 119 17 23 42 35 69 33 38-3 67-33 67-70 0-28-12-51-35-76-18-19-37-39-47-82Z" fill="url(#flame)"/>
+  <path d="M137 18c-10 27-47 56-60 94-10 30-1 63 21 81-10-30-2-59 19-87 15-20 27-44 20-88Z" fill="url(#flameHighlight)" opacity=".9"/>
+  <path d="M137 17c-6 22-36 47-55 76-24 36-24 85 1 119 17 23 42 35 69 33 38-3 67-33 67-70 0-28-12-51-35-76-18-19-37-39-47-82Z" stroke="#FFB13B" stroke-opacity=".65" stroke-width="3"/>
+  <text x="228" y="174" fill="url(#wordmark)" filter="url(#shadow)" font-family="Arial, Helvetica, sans-serif" font-size="132" font-style="italic" font-weight="800" letter-spacing="-7">Agniro</text>
+</svg>
